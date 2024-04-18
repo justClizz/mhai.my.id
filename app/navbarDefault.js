@@ -6,7 +6,7 @@ export default function NavbarDefault() {
     <>
 <div class="navbar bg-white-500">
   <div class="flex-1">
-    <Link href="/" class="btn btn-ghost text-xl bg-white" style="font-family:"Montserrat";">risecloth.</Link>
+    <Link href="/" class="btn btn-ghost text-xl bg-white font-["Montserrat"]">risecloth.</Link>
   </div>
   <div class="flex-none">
     <div class="dropdown dropdown-end">
