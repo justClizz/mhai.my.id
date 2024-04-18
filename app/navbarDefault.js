@@ -14,7 +14,9 @@ export default function NavbarDefault() {
     <>
 <div class="navbar bg-white-500">
   <div class="flex-1">
-    <Link href="/" className={logoFont.className} class="bg-white text-xl text-white">risecloth.</Link>
+   <div class="bg-white">
+    <Link href="/" className={logoFont.className} class="text-xl text-white">risecloth.</Link>
+   </div>
   </div>
   <div class="flex-none">
     <div class="dropdown dropdown-end">
