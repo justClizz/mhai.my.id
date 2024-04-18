@@ -1,9 +1,9 @@
-import Navbar from "./navbarDefaukt.js"
+import NavbarDefault from "../app/navbarDefault.js"
 
 export default function NavbarDefault() {
   return (
      <>
-    <Navbar></Navbar>
+    <NavbarDefault></NavbarDefault>
     </>
     )
 }
