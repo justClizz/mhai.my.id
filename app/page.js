@@ -1,7 +1,7 @@
 import Script from 'next/script'
 import Link from "next/link";
 
-export default function Home() {
+export default function NavbarDefault() {
   return (
     <>
     <html lang="en">
