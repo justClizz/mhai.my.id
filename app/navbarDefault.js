@@ -21,7 +21,7 @@ export default function NavbarDefault() {
           <span class="font-bold text-lg">8 Items</span>
           <span class="text-info">Subtotal: $999</span>
           <div class="card-actions">
-            <button class="btn btn-primary btn-block">View cart</button>
+            <Link href="/cart" class="btn btn-primary btn-block">View cart</Link>
           </div>
         </div>
       </div>
