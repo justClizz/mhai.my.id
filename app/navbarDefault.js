@@ -13,8 +13,8 @@ export default function NavbarDefault() {
   return (
     <>
 <div class="navbar bg-white-500">
-  <div class="flex-1">
-    <Link href="/" className={logoFont.className} class="btn btn-ghost text-xl bg-white">risecloth.</Link>
+  <div class="flex-1 bg-white">
+    <Link href="/" className={logoFont.className} class="btn btn-ghost text-xl">risecloth.</Link>
   </div>
   <div class="flex-none">
     <div class="dropdown dropdown-end">
