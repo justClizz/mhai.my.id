@@ -6,7 +6,7 @@ export default function NavbarDefault() {
     <>
 <div class="navbar bg-white-500">
   <div class="flex-1">
-    <a class="btn btn-ghost text-xl">daisyUI</a>
+    <Link href="/" class="btn btn-ghost text-xl">risecloth.</Link>
   </div>
   <div class="flex-none">
     <div class="dropdown dropdown-end">
