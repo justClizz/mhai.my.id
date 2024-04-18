@@ -3,6 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
+    <>
     <head>
 <link
       href="https://cdn.jsdelivr.net/npm/daisyui@2.6.0/dist/full.css"
@@ -43,5 +44,6 @@ export default function Home() {
 </div>
 
   </body>
+        </>
   );
 }
