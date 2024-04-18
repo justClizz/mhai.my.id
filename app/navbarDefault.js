@@ -1,7 +1,7 @@
 import Script from 'next/script'
 import Link from "next/link";
 
-export default function NavbarDefault() {
+const NavbarDefault = {} => {
   return (
     <>
     <html lang="en">
@@ -70,3 +70,5 @@ export default function NavbarDefault() {
         </>
   );
 }
+
+export default NavbarDefault
