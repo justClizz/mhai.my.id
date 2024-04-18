@@ -4,9 +4,13 @@ import Link from "next/link";
 export default function NavbarDefault() {
   return (
     <>
+<Link rel="preconnect" href="https://fonts.googleapis.com">
+<Link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<Link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
 <div class="navbar bg-white-500">
   <div class="flex-1">
-    <Link href="/" class="btn btn-ghost text-xl bg-white font-["Montserrat"]">risecloth.</Link>
+    <Link href="/" class="btn btn-ghost text-xl bg-white font-['montserrat']">risecloth.</Link>
   </div>
   <div class="flex-none">
     <div class="dropdown dropdown-end">
