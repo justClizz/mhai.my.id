@@ -4,6 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
+    <html lang="en">
     <head>
 <title>risecloth. Web Store</title>
     </head>
@@ -22,7 +23,7 @@ export default function Home() {
     </div>
   </div>
   <div class="navbar-center">
-    <a class="btn btn-ghost text-xl">daisyUI</a>
+    <Link class="btn btn-ghost text-xl">daisyUI</Link>
   </div>
   <div class="navbar-end">
     <button class="btn btn-ghost btn-circle">
@@ -38,6 +39,7 @@ export default function Home() {
 </div>
 
   </body>
+    </html>
         </>
   );
 }
