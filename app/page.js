@@ -1,18 +1,12 @@
-import script from 'next/script'
+import Script from 'next/script'
 import Link from "next/link";
 
 export default function Home() {
   return (
     <>
     <head>
-<link
-      href="https://cdn.jsdelivr.net/npm/daisyui@2.6.0/dist/full.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
+<title>risecloth. Web Store</title>
+    </head>
       <body>
  <div class="navbar bg-base-100">
   <div class="navbar-start">
