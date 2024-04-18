@@ -1,5 +1,3 @@
-"use client"
-
 import script from 'next/script'
 import Link from "next/link";
 
