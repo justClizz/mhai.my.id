@@ -1,4 +1,4 @@
-import NavbarDefault from "../app/navbarDefault.js"
+import NavbarDefault from "../app/navbarDefault"
 
 export default function NavbarDefault() {
   return (
