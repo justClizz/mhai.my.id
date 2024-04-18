@@ -2,8 +2,9 @@ import Script from 'next/script'
 import Link from "next/link";
 import { Montserrat } from 'next/font/google'
  
-const montserratBold = Montserrat({
-  weight: '600',
+const logoFont = Montserrat({
+  weight: '800',
+  style: ['italic'],
   subsets: ['latin'],
   display: 'swap',
 })
@@ -13,7 +14,7 @@ export default function NavbarDefault() {
     <>
 <div class="navbar bg-white-500">
   <div class="flex-1">
-    <Link href="/" className={montserratBold.className} class="btn btn-ghost text-xl bg-white">risecloth.</Link>
+    <Link href="/" className={logoFont.className} class="btn btn-ghost text-xl bg-white">risecloth.</Link>
   </div>
   <div class="flex-none">
     <div class="dropdown dropdown-end">
