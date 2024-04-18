@@ -1,15 +1,9 @@
 import Script from 'next/script'
 import Link from "next/link";
 
-const NavbarDefault = {} => {
+export default function NavbarDefault() {
   return (
     <>
-    <html lang="en">
-    <head>
-<title>risecloth. Web Store</title>
-    </head>
-      <body>
-
 <div class="navbar bg-base-100">
   <div class="flex-1">
     <a class="btn btn-ghost text-xl">daisyUI</a>
@@ -64,11 +58,6 @@ const NavbarDefault = {} => {
     </div>
   </div>
 </div>
-    
-  </body>
-    </html>
         </>
   );
 }
-
-export default NavbarDefault
