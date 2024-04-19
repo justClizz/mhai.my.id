@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Link } from "next/link";
 
 import { Montserrat } from "next/font/google";
 import "./globals.css";
@@ -24,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Link rel="icon" type="image/x-icon" href="https://risecloth-shop.vercel.app/favicon.ico">
+      <link rel="icon" href="/favicon.ico" sizes="any" />
       <body className={font.className}>{children}</body>
     </html>
   );
