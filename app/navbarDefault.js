@@ -6,7 +6,7 @@ export default function NavbarDefault({ tambahan }) {
     <>
 <div class="navbar bg-white-500">
   <div class="flex-1">
-    <Link href="/" className={logoFont.className} class="text-xl text-white">Placehold</Link>
+    <Link href="/" class="text-xl">Placehold</Link>
   </div>
   <div class="flex-none">
     <div class="dropdown dropdown-end">
