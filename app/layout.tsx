@@ -10,7 +10,7 @@ openGraph: {
   description: "Official risecloth. Web Store",
   images: [
     {
-      url: 'https://risecloth-shop.vercel.app/logo.ico', // Must be an absolute URL
+      url: 'https://risecloth-shop.vercel.app/512-favicon.ico', // Must be an absolute URL
     },
   ],
 }
@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <link rel="icon" href="/logo.ico" sizes="any" />
+      <link rel="icon" href="/favicon.ico" sizes="any" />
       <body className={font.className}>{children}</body>
     </html>
   );
