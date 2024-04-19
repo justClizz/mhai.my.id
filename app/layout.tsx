@@ -5,12 +5,14 @@ import "./globals.css";
 const font = Montserrat({ subsets: ["latin"], weight: "600" });
 
 export const metadata: Metadata = {
+openGraph: {
   description: "Official risecloth. Web Store",
   images: [
     {
       url: 'https://risecloth-shop.vercel.app/favicon.ico', // Must be an absolute URL
     },
   ],
+}
 };
 
 export default function RootLayout({
