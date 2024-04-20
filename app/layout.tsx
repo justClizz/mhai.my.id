@@ -10,7 +10,7 @@ openGraph: {
   description: "Official risecloth. Web Store",
   images: [
     {
-      url: 'https://risecloth-shop.vercel.app/512-favicon.ico', // Must be an absolute URL
+      url: 'https://risecloth-shop.vercel.app/512-favicon.png', // Must be an absolute URL
     },
   ],
 }
