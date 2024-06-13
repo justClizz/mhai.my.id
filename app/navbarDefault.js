@@ -1,12 +1,12 @@
 import Script from 'next/script'
 import Link from "next/link";
-
+ 
 export default function NavbarDefault({ tambahan }) {
   return (
     <>
 <div class="navbar bg-white-500">
   <div class="flex-1">
-    <Link href="/" class="text-xl">risecloth.</Link>
+    <Link href="/" className="${fontA.className}" class="text-xl">risecloth.</Link>
   </div>
         <div class="dropdown dropdown-end">
       <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
