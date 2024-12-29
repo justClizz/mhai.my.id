@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function NavbarDefault({ tambahan }) {
   return (
   <body data-theme="light">
-    <!-- Preloader -->
+    // Preloader
     <div id="preloader">
       <div id="status">&nbsp;</div>
     </div>
