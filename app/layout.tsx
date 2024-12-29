@@ -4,11 +4,8 @@ import { Montserrat } from "next/font/google";
 import "./globals.css";
  
 // If loading a variable font, you don't need to specify the font weight
-const font = Montserrat({
-  style: ["ExtraBold"],
-  style: ["italic"],
-  subsets: ['montserrat'],
-  display: 'swap',
+const font = Montserrat({ subsets: ["latin"], weight: "600",  style: ["ExtraBold"] });
+
 })
 
 export const metadata: Metadata = {
