@@ -4,7 +4,7 @@ import { Montserrat } from "next/font/google";
 import "./globals.css";
  
 // If loading a variable font, you don't need to specify the font weight
-const font = Montserrat({ subsets: ["latin"], weight: "600",  style: ["ExtraBold"] });
+const font = Montserrat({ subsets: ["latin"], weight: "600", });
 
 export const metadata: Metadata = {
 openGraph: {
