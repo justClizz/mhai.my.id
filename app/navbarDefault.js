@@ -28,7 +28,7 @@ export default function NavbarDefault({ tambahan }) {
         </svg>
       </button>
     </div>
-    <nav :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow pb-4 md:pb-0 hidden md:flex md:justify-end md:flex-row">
+    <nav class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow pb-4 md:pb-0 hidden md:flex md:justify-end md:flex-row">
       <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 md:ml-4 text-gray-400 hover:text-gray-500" href="#product">Product</a>
       <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 md:ml-4 text-gray-400 hover:text-gray-500" href="#blog">Blog</a>
       <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 md:ml-4 text-gray-400 hover:text-gray-500" href="#contact">Contact Us!</a>
