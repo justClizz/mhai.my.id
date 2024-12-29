@@ -9,7 +9,7 @@ export default function NavbarDefault({ tambahan }) {
       <div id="status">&nbsp;</div>
     </div>
 
-    <!-- Back to top -->
+    // Back to top
   <a id="backtotop">
     <i class="fa-solid fa-arrow-up fa-3x text-black mt-1"></i>
   </a>
