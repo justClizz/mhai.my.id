@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 
 import { Montserrat } from "next/font/google";
 import "./globals.css";
-import { font } from 'next/font/google'
  
 // If loading a variable font, you don't need to specify the font weight
 const fontA = Inter({
