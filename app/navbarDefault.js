@@ -2,6 +2,8 @@ import Script from 'next/script'
 import Link from "next/link";
 import Image from 'next/image'
 
+var img = Image
+
 export default function NavbarDefault({ tambahan }) {
   return (
   <body data-theme="light">
@@ -19,7 +21,7 @@ export default function NavbarDefault({ tambahan }) {
   <div x-data="{ open: false }" class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
     <div class="p-4 flex flex-row items-center justify-between">
       <a href="/" class="text-lg font-semibold tracking-widest text-gray-900 uppercase rounded-lg dark:text-white focus:outline-none focus:shadow-outline">
-        <Image class="h-14" src="./logo_header.png" alt="Gadjah Hosting Logo">
+        <img class="h-14" src="./logo_header.png" alt="Gadjah Hosting Logo" />
       </a>
       <button class="md:hidden rounded-lg focus:outline-none focus:shadow-outline" @click="open = !open">
         <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
