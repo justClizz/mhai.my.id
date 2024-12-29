@@ -4,7 +4,16 @@ import Link from "next/link";
 export default function NavbarDefault({ tambahan }) {
   return (
     <>
-<div class="navbar bg-white-500">
+      {/* Preloader */}
+  <div id="preloader">
+    <div id="status">&nbsp;</div>
+  </div>
+  {/* Back to top */}
+  <a id="backtotop">
+    <i className="fa-solid fa-arrow-up fa-3x text-black mt-1" />
+  </a>
+
+<div className="backdrop-blur-sm bg-white/90 w-full fixed bg-base-100 z-50">
   <div class="flex-1">
     <Link href="/" class="text-xl">Placehold</Link>
   </div>
