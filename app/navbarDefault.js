@@ -1,6 +1,8 @@
 import Script from 'next/script'
 import Link from "next/link";
- 
+import Image from 'next/image'
+import img from 'next/image'
+
 export default function NavbarDefault({ tambahan }) {
   return (
   <body data-theme="light">
