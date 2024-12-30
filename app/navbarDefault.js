@@ -16,10 +16,6 @@ export default function NavbarDefault({ tambahan }) {
 
 <div class="navbar backdrop-blur-sm bg-black/90 w-full fixed bg-base-100 z-50 sticky top-0" 
 style={{
-    borderTopLeftRadius: 13,
-    borderTopRightRadius: 13,
-    borderBottomLeftRadius: 13,
-    borderBottomRightRadius: 13,
     boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)"
 }}>
   <div
