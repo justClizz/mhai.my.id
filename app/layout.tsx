@@ -8,7 +8,7 @@ const font = Montserrat({ subsets: ["latin"], weight: "600", });
 
 export const metadata: Metadata = {
 openGraph: {
-  description: "Official risecloth. Web Store",
+  description: "Muhammad Haikal Ali Abdillah | A Website",
   images: [
     {
       url: 'https://risecloth-shop.vercel.app/512-favicon.png', // Must be an absolute URL
