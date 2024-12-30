@@ -6,7 +6,7 @@ export default function NavbarDefault({ tambahan }) {
     <>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </meta>
-    
+
     <div class="navbar backdrop-blur-sm bg-black/90 sticky bg-base-100" 
 style={{
     borderTopLeftRadius: 13,
@@ -15,7 +15,7 @@ style={{
     borderBottomRightRadius: 13,
     boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)"
 }}>
-      <div class="flex-1">
+      <div class="flex-1 w-auto">
         <br />
         <Link href="/" class="text-xl text-white">Muhammad Haikal Ali Abdillah</Link>
       </div>
