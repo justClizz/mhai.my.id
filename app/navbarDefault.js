@@ -4,10 +4,6 @@ import Link from "next/link";
 export default function NavbarDefault({ tambahan }) {
   return (
     <>
-      {/* Preloader */}
-  <div id="preloader">
-    <div id="status">&nbsp;</div>
-  </div>
   {/* Back to top */}
   <a id="backtotop">
     <i className="fa-solid fa-arrow-up fa-3x text-black mt-1" />
