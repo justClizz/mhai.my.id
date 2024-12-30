@@ -12,7 +12,8 @@ export default function NavbarDefault({ tambahan }) {
   <a id="backtotop">
     <i className="fa-solid fa-arrow-up fa-3x text-black mt-1" />
   </a>
-
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+  
 <div class="navbar backdrop-blur-sm bg-black/90 w-full fixed bg-base-100 z-50" 
 style={{
     borderTopLeftRadius: 13,
