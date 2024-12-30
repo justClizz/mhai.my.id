@@ -11,7 +11,7 @@ export default function NavbarDefault({ tambahan }) {
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
 
 
-  <div class="navbar backdrop-blur-sm bg-black/90 w-full fixed bg-base-100 z-50" 
+  <div class="m-1 navbar backdrop-blur-sm bg-black/90 w-full fixed bg-base-100 z-50" 
 style={{
     borderTopLeftRadius: 13,
     borderTopRightRadius: 13,
