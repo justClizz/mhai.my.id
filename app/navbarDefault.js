@@ -21,6 +21,10 @@ style={{
     borderBottomRightRadius: 13,
     boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)"
 }}>
+  <div
+  x-data="{ open: false }"
+  className="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8"
+>
   <div class="flex-1">
     <Link href="/" class="text-xl">Placehold</Link>
   </div>
@@ -72,6 +76,7 @@ style={{
         <li><a>Logout</a></li>
       </ul>
     </div>
+  </div>
   </div>
 </div>
         </>
