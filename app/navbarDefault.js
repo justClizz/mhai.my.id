@@ -13,7 +13,16 @@ export default function NavbarDefault({ tambahan }) {
     <i className="fa-solid fa-arrow-up fa-3x text-black mt-1" />
   </a>
 
-<div class="navbar backdrop-blur-sm bg-white/90 w-full fixed bg-base-100 z-50" style="border-top-left-radius: 13px;border-top-right-radius: 13px;border-bottom-left-radius: 13px;border-bottom-right-radius: 13px;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
+<div
+  className="navbar backdrop-blur-sm bg-white/90 w-full fixed bg-base-100 z-50"
+  style={{
+    borderTopLeftRadius: 13,
+    borderTopRightRadius: 13,
+    borderBottomLeftRadius: 13,
+    borderBottomRightRadius: 13,
+    boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)"
+  }}
+></div>
   <div class="flex-1">
     <Link href="/" class="text-xl">Placehold</Link>
   </div>
