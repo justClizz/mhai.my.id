@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function NavbarDefault({ tambahan }) {
   return (
-    <>
+
       {/* Preloader */}
   <div id="preloader">
     <div id="status">&nbsp;</div>
@@ -76,6 +76,5 @@ export default function NavbarDefault({ tambahan }) {
     </div>
   </div>
 </div>
-        </>
   );
 }
