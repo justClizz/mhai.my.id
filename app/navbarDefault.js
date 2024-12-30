@@ -19,9 +19,9 @@ style={{
       
       <div class="flex-none">
     <ul class="menu menu-horizontal px-1">
-      <li><button class="btn text-white"><Link href="/">Homepage</Link></button></li>
-      <li><button class="btn text-white"><Link href="#about">About Me</Link></button></li>
-      <li><button class="btn text-white"><Link href="#project">Project</Link></button></li>
+      <li><button class="btn btn-link text-white"><Link href="/">Homepage</Link></button></li>
+      <li><button class="btn btn-link text-white"><Link href="#about">About Me</Link></button></li>
+      <li><button class="btn btn-link text-white"><Link href="#project">Project</Link></button></li>
       <li><button class="btn btn-info"><Link href="#contact">Contact Me!</Link></button></li>
     </ul>
   </div>
