@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function NavbarDefault({ tambahan }) {
   return (
     <>
-    <div class="navbar backdrop-blur-sm bg-black/90 w-full fixed bg-base-100" 
+    <div class="navbar backdrop-blur-sm bg-black/90 fixed bg-base-100" 
 style={{
     borderTopLeftRadius: 13,
     borderTopRightRadius: 13,
@@ -13,7 +13,7 @@ style={{
     boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)"
 }}>
       <div class="flex-1">
-        <Link href="/" class="text-xl">Placehold</Link>
+        <Link href="/" class="text-xl text-white">Muhammad Haikal Ali Abdillah</Link>
       </div>
       <div class="flex-none">
         <div class="dropdown dropdown-end">
