@@ -5,7 +5,7 @@ export default function NavbarDefault() {
      <>
         <html lang="en">
     <head>
-<title>risecloth. Web Store</title>
+<title>Muhammad Haikal Ali Abdillah | A Weebsite</title>
     </head>
       <body>    
     <Navbar />

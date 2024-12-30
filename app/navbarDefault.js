@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function NavbarDefault({ tambahan }) {
   return (
     <>
-    <div class="navbar backdrop-blur-sm bg-black/90 w-full fixed bg-base-100 z-50" 
+    <div class="navbar backdrop-blur-sm bg-black/90 w-full fixed bg-base-100" 
 style={{
     borderTopLeftRadius: 13,
     borderTopRightRadius: 13,
