@@ -19,19 +19,10 @@ style={{
       
       <div class="flex-none">
     <ul class="menu menu-horizontal px-1">
-      <li><a><Link href="/">Homepage</Link></a></li>
-      <li><a><Link href="#about">About Me</Link></a></li>
-      <li><a><Link href="#project">Project</Link></a></li>
+      <li><button class="btn text-white"><Link href="/">Homepage</Link></button></li>
+      <li><button class="btn text-white"><Link href="#about">About Me</Link></button></li>
+      <li><button class="btn text-white"><Link href="#project">Project</Link></button></li>
       <li><button class="btn btn-info"><Link href="#contact">Contact Me!</Link></button></li>
-      <li>
-        <details>
-          <summary>Parent</summary>
-          <ul class="bg-base-100 rounded-t-none p-2">
-            <li><a>Link 1</a></li>
-            <li><a>Link 2</a></li>
-          </ul>
-        </details>
-      </li>
     </ul>
   </div>
     </div>
