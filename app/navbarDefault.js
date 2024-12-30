@@ -15,10 +15,7 @@ export default function NavbarDefault({ tambahan }) {
 style={{
     boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)"
 }}>
-  <div
-  x-data="{ open: false }"
-  className="block flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8"
->
+
   <div class="flex-1">
     <Link href="/" class="text-xl">Placehold</Link>
   </div>
@@ -72,7 +69,6 @@ style={{
     </div>
   </div>
   </div>
-</div>
         </>
   );
 }
