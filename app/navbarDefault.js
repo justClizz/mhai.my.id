@@ -10,13 +10,14 @@ export default function NavbarDefault({ tambahan }) {
   </a>
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
 
+
 <div class="navbar backdrop-blur-sm bg-black/90 w-full fixed bg-base-100 z-50 sticky top-0" 
 style={{
     boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)"
 }}>
   <div
   x-data="{ open: false }"
-  className="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8"
+  className="block flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8"
 >
   <div class="flex-1">
     <Link href="/" class="text-xl">Placehold</Link>
