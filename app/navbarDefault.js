@@ -13,8 +13,8 @@ export default function NavbarDefault({ tambahan }) {
     <i className="fa-solid fa-arrow-up fa-3x text-black mt-1" />
   </a>
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
-  
-<div class="navbar backdrop-blur-sm bg-black/90 w-full fixed bg-base-100 z-50" 
+
+<div class="navbar backdrop-blur-sm bg-black/90 w-full fixed bg-base-100 z-50 sticky top-0" 
 style={{
     borderTopLeftRadius: 13,
     borderTopRightRadius: 13,
