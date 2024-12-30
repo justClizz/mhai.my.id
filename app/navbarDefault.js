@@ -4,25 +4,7 @@ import Link from "next/link";
 export default function NavbarDefault({ tambahan }) {
   return (
     <>
-  {/* Back to top */}
-  <a id="backtotop">
-    <i className="fa-solid fa-arrow-up fa-3x text-black mt-1" />
-  </a>
-  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
-
-
-  <div class="navbar backdrop-blur-sm bg-black/90 w-full fixed bg-base-100 z-50" 
-style={{
-    borderTopLeftRadius: 13,
-    borderTopRightRadius: 13,
-    borderBottomLeftRadius: 13,
-    borderBottomRightRadius: 13,
-    boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)"
-}}>
-  <div
-  x-data="{ open: false }"
-  className="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8"
->
+  <div class="navbar bg-white-500">
   <div class="flex-1">
     <Link href="/" class="text-xl">Placehold</Link>
   </div>
@@ -44,7 +26,14 @@ style={{
         </div>
       </div>
     </div>
-        <div class="dropdown dropdown-end">
+        <div class="navbar backdrop-blur-sm bg-black/90 w-full fixed bg-base-100 z-50" 
+style={{
+    borderTopLeftRadius: 13,
+    borderTopRightRadius: 13,
+    borderBottomLeftRadius: 13,
+    borderBottomRightRadius: 13,
+    boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)"
+}}>
       <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
         <div class="indicator">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /></svg>
@@ -74,7 +63,6 @@ style={{
         <li><a>Logout</a></li>
       </ul>
     </div>
-  </div>
   </div>
 </div>
         </>
