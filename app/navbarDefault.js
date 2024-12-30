@@ -4,6 +4,9 @@ import Link from "next/link";
 export default function NavbarDefault({ tambahan }) {
   return (
     <>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </meta>
+    
     <div class="navbar backdrop-blur-sm bg-black/90 sticky bg-base-100" 
 style={{
     borderTopLeftRadius: 13,
