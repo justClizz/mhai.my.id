@@ -1,7 +1,7 @@
 import Script from 'next/script'
 import Link from "next/link";
 
-export default function NavbarDefault({ tambahan }) {
+export default function Navbar({ tambahan }) {
   return (
     <>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
