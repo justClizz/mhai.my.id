@@ -8,7 +8,7 @@ export default function Page() {
 <title>Muhammad Haikal Ali Abdillah | A Weebsite</title>
     </head>
       <body>    
-    Coming Soon!
+    <Navbar />
     </body>
     </html>
     </>
