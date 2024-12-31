@@ -13,8 +13,8 @@ export default function NavbarDefault({ tambahan }) {
         <Link href="/" class="text-xl text-white">Muhammad Haikal Ali Abdillah</Link>
       </div>
       
-      <div class="flex-none">
-    <ul class="menu menu-horizontal px-1 block md:hidden">
+      <div class="flex-none block md:hidden">
+    <ul class="menu menu-horizontal px-1">
       <li><button class="btn btn-link text-white"><Link href="/">Homepage</Link></button></li>
       <li><button class="btn btn-link text-white"><Link href="#about">About Me</Link></button></li>
       <li><button class="btn btn-link text-white"><Link href="#project">Project</Link></button></li>
