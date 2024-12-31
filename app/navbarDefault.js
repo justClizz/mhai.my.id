@@ -14,7 +14,7 @@ export default function NavbarDefault({ tambahan }) {
       </div>
       
       <div class="flex-none">
-    <ul class="menu menu-horizontal px-1">
+    <ul class="menu menu-horizontal px-1 inline md:none">
       <li><button class="btn btn-link text-white"><Link href="/">Homepage</Link></button></li>
       <li><button class="btn btn-link text-white"><Link href="#about">About Me</Link></button></li>
       <li><button class="btn btn-link text-white"><Link href="#project">Project</Link></button></li>
