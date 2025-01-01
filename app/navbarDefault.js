@@ -15,9 +15,7 @@ export default function Navbar({ tambahan }) {
 <li><button class="btn btn-link text-white rounded-lg"><Link href="#about">About Me</Link></button></li>
       <li><button class="btn btn-link text-white rounded-lg"><Link href="#project">Project</Link></button></li>
       <li><button class="btn btn-info rounded-lg"><Link href="#contact">Contact Me!</Link></button></li>
-    </ul>
   </div>
-</div>
             </>
 
   
